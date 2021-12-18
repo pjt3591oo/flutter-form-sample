@@ -40,9 +40,9 @@ class SigninState extends State<SigninPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Row(
-                  children: [
-                    Text('id',
-                        style: const TextStyle(
+                  children: const [
+                    Text('password',
+                        style: TextStyle(
                             fontSize: 14, fontWeight: FontWeight.w700)),
                   ],
                 ),
@@ -56,9 +56,9 @@ class SigninState extends State<SigninPage> {
                 }),
                 Container(height: 16),
                 Row(
-                  children: [
+                  children: const [
                     Text('password',
-                        style: const TextStyle(
+                        style: TextStyle(
                             fontSize: 14, fontWeight: FontWeight.w700)),
                   ],
                 ),
